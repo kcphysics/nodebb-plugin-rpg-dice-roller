@@ -21,12 +21,12 @@ The goal is to get a syntax like the following:
 ```
 
 Where:
-  - *<Name of Roll>* is a name, such as "Attack", or "Damage", or "Perception"
-  - *X* Is the number of dice to roll
-  - *Y* Is the number of sides on the die to roll
-  - *+/-* Is the sign of the modifier
-  - *Z* Is a modifier to the roll
-  - *reroll=A,B* Is a command to automatically reroll numbers A or B once
+  - **Name of Roll** is a name, such as "Attack", or "Damage", or "Perception"
+  - **X** Is the number of dice to roll
+  - **Y** Is the number of sides on the die to roll
+  - **+/-** Is the sign of the modifier
+  - **Z** Is a modifier to the roll
+  - **reroll=A,B** Is a command to automatically reroll numbers A or B once
 
 Other syntax may be supported in the future.
 
