@@ -1,0 +1,18 @@
+{
+    "id": "nodebb-plugin-rpg-dice-roller",
+    "name": "RPG Dice Roller",
+    "description": "A dice roller for tabletop RPGs systems used in Play By Post Forums",
+    "url": "https://github.com/kcphysics/nodebb-plugin-rpg-dice-roller",
+    "library": "./library.js",
+    "staticDirs": {
+        "images": "public/images"
+    },
+    "less": [
+        "assets/style.less"
+    ],
+    "hooks": [
+        { "hook": "filter:post.save", "method": "filter" },
+        { "hook": "action:post.save", "method": "emailme" }
+    ],
+    "languages": "path/to/languages"
+}

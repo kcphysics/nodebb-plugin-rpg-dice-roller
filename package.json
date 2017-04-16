@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-rpg-dice-roller",
+  "version": "0.0.1",
+  "description": "NodeBB Plugin for Dice rolling for tabletop RPG systems",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kcphysics/nodebb-plugin-rpg-dice-roller"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "dice",
+    "roll",
+    "rpg",
+    "random"
+  ],
+  "author": {
+    "name": "kcphysics",
+    "email": "lawrence.selvy@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kcphysics/nodebb-plugin-rpg-dice-roller/issues"
+  }
+}
